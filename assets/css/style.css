@@ -7,8 +7,8 @@
 
 body {
   /*  background-color: rgb(243, 242, 242); */
-	background-image: url('assets/bg.jpg');
-	background-color: #3D3B3C;
+	background-image: url('assets/imagens/bg.jpg');
+	/* background-color: #3D3B3C; */
 }
 
 #userPhoto {
