@@ -22,9 +22,9 @@ body {
 
 #userName {
     color: rgb(255, 255, 255);
-    font-size: 1.25rem;
+    font-size: 1.70rem;
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.05;
     display: block;
     font-family: var(--font);
     width: 100%;
@@ -34,7 +34,7 @@ body {
 
 #section-title {
     color: rgb(255, 255, 255);
-    font-size: 1rem;
+    font-size: 1.40rem;
     font-weight: 600;
     line-height: 1.25;
     display: block;
@@ -78,10 +78,10 @@ body {
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
-	font-size: 1rem;
+	font-size: 1.10rem;
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-	border-radius: 1px;
+	border-radius: 5px;
 	border: solid var(--accentColor) 2px;
 	cursor: pointer;
 	display: inline-flex;
