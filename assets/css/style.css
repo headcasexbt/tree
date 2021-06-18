@@ -11,6 +11,14 @@ body {
 	/* background-color: #3D3B3C; */
 }
 
+@media only screen and (max-device-width: 1366px) {
+  body{
+    background-attachment: scroll;
+	background-image: url('assets/imagens/bg.jpg');
+	background-size: cover;
+  }
+}
+
 #userPhoto {
     width: 100px;
     height: 100px;
