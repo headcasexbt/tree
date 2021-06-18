@@ -99,6 +99,35 @@ body {
     width: 100%;
 }
 
+.css-button-ani {
+	background-color: #ffffff;
+    color: #3D3B3C;
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+	font-size: 1.10rem;
+    font-weight: bold;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+	border-radius: 5px;
+	border: solid var(--accentColor) 2px;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	text-decoration:none;
+	max-width: 675px;
+    width: 100%;
+	-webkit-animation: btnWiggle 5s infinite;
+	-moz-animation: btnWiggle 5s infinite;
+	-o-animation: btnWiggle 5s infinite;
+	animation: btnWiggle 5s infinite;
+}
+
+.css-button-ani:hover {
+	background-color: #3D3B3C;
+    color: #FFFFFF;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
 .css-button:hover {
 	background-color: #3D3B3C;
     color: #FFFFFF;
@@ -161,4 +190,27 @@ body {
 
 .night_mode:hover {
     cursor: pointer;
+}
+
+/* animation */
+@-webkit-keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+@-o-keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+@keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
 }
